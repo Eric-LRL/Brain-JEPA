@@ -1,0 +1,32 @@
+global_pool: true
+
+resume: ''
+accum_iter: 1
+lr: null
+
+drop_path: 0.1
+
+clip_grad: null
+weight_decay: 0.05
+
+layer_decay: 0.75
+warmup_epochs: 0
+
+finetune: ''
+
+cls_token: false
+
+device: 'cuda'
+
+start_epoch: 0
+seed: 0
+
+num_workers: 8
+pin_mem: true
+no_pin_mem: false
+world_size: 1
+local_rank: -1
+# dist_on_itp: false
+# dist_url: 'env://'
+
+

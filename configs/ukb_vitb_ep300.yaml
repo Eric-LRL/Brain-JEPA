@@ -1,0 +1,57 @@
+data:
+  batch_size: 16 
+  crop_size: 
+  - 450
+  - 160
+  num_workers: 8
+  pin_mem: true
+
+  gradient_csv_path: path/to/gradient_mapping_450.csv
+logging:
+  folder: logs/ukb_vitb_ep300
+  write_tag: jepa
+mask:
+  allow_overlap: false
+  patch_size: 16
+  min_keep: 4
+  enc_mask_scale:
+  - 0.84
+  - 1 
+  pred_mask_R_scale: 
+  - 0.45
+  - 0.6 
+  pred_mask_T_roi_scale:
+  - 0.2
+  - 0.6
+  pred_mask_R_roi_scale:
+  - 0.15
+  - 0.3
+  pred_mask_T_scale:
+  - 0.0
+  - 0.4
+
+meta:
+  load_checkpoint: false
+  model_name: vit_base
+  pred_depth: 6  
+  pred_emb_dim: 384 
+  read_checkpoint: null
+  use_bfloat16: true
+  accumulation_steps: 8
+  attn_mode: flash_attn
+  add_w: mapping
+  downsample: true
+  mask_mode: 'roi_mask'
+  use_standatdization: false
+optimization:
+  ema:
+  - 0.996
+  - 1.0
+  epochs: 300
+  final_lr: 1.0e-06
+  final_weight_decay: 0.4
+  ipe_scale: 1.0
+  lr: 0.001
+  start_lr: 0.00005 
+  warmup: 40
+  weight_decay: 0.04
