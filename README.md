@@ -7,7 +7,7 @@ The Thirty-eighth Annual Conference on Neural Information Processing Systems (Ne
 
 ## Method
 <p align="center">
-  <img src="https://github.com/Eric-LRL/BrainJEPA/blob/master/assets/framework.png" width="600" alt="framework">
+  <img src="./assets/framework.png" width="600" alt="framework">
 </p>
 
 <div align="center">
@@ -22,7 +22,7 @@ Brain-JEPA has three main contributions:
 3. The use of **_JEPA_** architecture. 
 
 <p align="center">
-  <img src="https://github.com/Eric-LRL/BrainJEPA/blob/master/assets/gradient.png" width="500" alt="gradient">
+  <img src="./assets/gradient.png" width="500" alt="gradient">
 </p>
 
 <div align="center">
