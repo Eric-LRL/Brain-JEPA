@@ -1,6 +1,6 @@
 # Brain-JEPA
 
-Official Repository of the paper: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking (*NeurIPS 2024, Spotlight*)
+Official Repository of the paper: [Brain-JEPA: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking](http://arxiv.org/abs/2409.19407) (*NeurIPS 2024, Spotlight*)
 <!-- <br>
 __Brain-JEPA: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking__ <br>
 The Thirty-eighth Annual Conference on Neural Information Processing Systems (NeurIPS 2024), __Spotlight__ -->
@@ -112,7 +112,7 @@ If you find this repository useful in your research, please consider giving a st
 ```
 @article{BrainJEPA,
   title={Brain-JEPA: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking},
-  author={Zijian Dong and Ruilin Li et al},
+  author={Zijian Dong and Ruilin Li and Yilei Wu and Thuan Tinh Nguyen and Joanna Su Xian Chong and Fang Ji and Nathanael Ren Jie Tong and Christopher Li Hsian Chen and Juan Helen Zhou},
   journal={NeurIPS 2024},
   year={2024}
 }
