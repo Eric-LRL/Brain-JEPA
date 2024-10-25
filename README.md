@@ -35,7 +35,9 @@ Brain-JEPA has three main contributions:
 Three publicly available datasets were used in this paper: [UKB](https://www.ukbiobank.ac.uk/), [HCP-Aging](https://www.humanconnectome.org/study/hcp-lifespan-aging), and [ADNI](https://adni.loni.usc.edu/).<br>
 The in-house dataset for NC/MCI classification is from  [Memory, Ageing and Cognition Centre (MACC)](https://medicine.nus.edu.sg/macc/).
 
-We followed the preprocessing pipelines in [Kong et al](https://academic.oup.com/cercor/article/29/6/2533/5033556?login=false) and [Li et al](https://www.sciencedirect.com/science/article/abs/pii/S1053811919303027).
+UKB dataset is directly downloaded from [Mansour _et al._](https://www.sciencedirect.com/science/article/pii/S105381192300558X).
+
+We followed the preprocessing pipelines in [Wu _et al._](https://www.sciencedirect.com/science/article/pii/S105381192200684X?via%3Dihub) and [Kong _et al._](https://academic.oup.com/cercor/article/29/6/2533/5033556?login=false) for HCP-Aging and ADNI, respectively.
 
 Population-level brain gradient was derived from UKB data with [Brainspace toolbox](https://brainspace.readthedocs.io/en/latest/).
 
