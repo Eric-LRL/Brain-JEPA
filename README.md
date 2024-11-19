@@ -32,6 +32,8 @@ Brain-JEPA has three main contributions:
 </div>
 
 ## Dataset
+The fMRI data was parcellated into 450 ROIs, comprising 50 subcortical ROIs from the [Tian Scale III atlas](https://www.nature.com/articles/s41593-020-00711-6), followed by 400 cortical ROIs from the [Schaefer atlas](https://academic.oup.com/cercor/article/28/9/3095/3978804).
+
 Three publicly available datasets were used in this paper: [UKB](https://www.ukbiobank.ac.uk/), [HCP-Aging](https://www.humanconnectome.org/study/hcp-lifespan-aging), and [ADNI](https://adni.loni.usc.edu/).<br>
 The in-house dataset for NC/MCI classification is from  [Memory, Ageing and Cognition Centre (MACC)](https://medicine.nus.edu.sg/macc/).
 
