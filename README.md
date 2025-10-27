@@ -1,5 +1,8 @@
 # Brain-JEPA
 
+> [!NOTE]
+> 🔴 **NEW VERSION AVAILABLE!** Check out our new multimodal brain foundation model **[BrainHarmonix](https://github.com/hzlab/Brain-Harmony)**
+
 Official Repository of the paper: [Brain-JEPA: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking](http://arxiv.org/abs/2409.19407) (*NeurIPS 2024, Spotlight*)
 <!-- <br>
 __Brain-JEPA: Brain Dynamics Foundation Model with Gradient Positioning and Spatiotemporal Masking__ <br>
